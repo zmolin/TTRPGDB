@@ -2,15 +2,29 @@
     text-align: center;
 }
 
-.sheet_container {
+.sheet_grid {
     display: grid;
     border: solid black 1px;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 100px 100px;
+    grid-gap: 5px;
 }
 
-.sheet_item {
-    border: solid black 1px;
+.sheet_grid > div {
     background-color: green;
-    margin: 5px;
+    border: solid black 1px;
+    padding: 5px;
+}
+
+.ability_score_grid {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    grid-gap: 5px;
+}
+
+.ability_score_grid > div {
+    background-color: white;
+    border: solid black 1px;
+    padding: 3px;
+    text-align: center;
 }
