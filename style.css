@@ -1,3 +1,16 @@
 .title {
     text-align: center;
 }
+
+.sheet_container {
+    display: grid;
+    border: solid black 1px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100px 100px;
+}
+
+.sheet_item {
+    border: solid black 1px;
+    background-color: green;
+    margin: 5px;
+}
